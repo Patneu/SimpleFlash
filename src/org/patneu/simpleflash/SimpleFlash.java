@@ -518,7 +518,7 @@ public class SimpleFlash extends ActionBarActivity
             sm.setHideStatusbar(loadBooleanPref(R.string.hide_statusbar_pref, false));
             sm.setShowNotification(loadBooleanPref(R.string.show_notification_pref, true));
             sm.setNotificationClick(loadIntPref(R.string.notification_click_pref, CameraOnNotification.NOTIFICATION_RESUME));
-            sm.setNotificationCancel(loadIntPref(R.string.notification_cancel_pref, CameraOnNotification.NOTIFICATION_NOTHING));
+            sm.setNotificationCancel(loadIntPref(R.string.notification_cancel_pref, CameraOnNotification.NOTIFICATION_FINISH));
         }
     }
     /**
