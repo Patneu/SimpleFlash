@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:simpleflash="http://schemas.android.com/apk/res-auto" >
+    <item android:id="@+id/lock_item"
+          android:icon="@drawable/ic_actionbar_unlocked"
+          android:title="@string/lock_item_text"
+          simpleflash:showAsAction="always" />
+    <item android:id="@+id/settings_item"
+          android:icon="@drawable/ic_actionbar_settings"
+          android:title="@string/settings_item_text"
+          simpleflash:showAsAction="ifRoom" />
+    <item android:id="@+id/exit_item"
+          android:icon="@drawable/ic_actionbar_exit"
+          android:title="@string/exit_item_text"
+          simpleflash:showAsAction="always" />
+    <item android:id="@+id/about_item"
+          android:icon="@drawable/ic_actionbar_about"
+          android:title="@string/about_item_text"
+          simpleflash:showAsAction="never" />
+</menu>

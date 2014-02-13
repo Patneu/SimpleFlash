@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_activity_name">Settings</string>
+    <string name="about_activity_name">About</string>
+    
+    <string name="on_start_checkbox_text">Light on at start</string>
+    <string name="in_background_checkbox_text">Light on in background</string>
+    
+    <string name="volumekeys_used_checkbox_text">Switch light with volume keys</string>
+    <string name="screen_locked_label_text">While screen locked:</string>
+    <string name="screen_on_checkbox_text">Keep screen on</string>
+    <string name="lock_exit_checkbox_text">Lock \"exit\" button</string>
+    <string name="lock_back_checkbox_text">Lock back key</string>
+    <string name="lock_menu_checkbox_text">Lock menu key</string>
+    <string name="lock_volume_checkbox_text">Lock volume keys</string>
+    <string name="hide_statusbar_checkbox_text">Hide status bar</string>
+    <string name="show_notification_checkbox_text">Show notification while camera light is on</string>
+    <string name="notification_click_label_text">When notification clicked:</string>
+    <string name="notification_cancel_label_text">When notification cancelled:</string>
+    <string name="notification_resume_radio_text">Resume app</string>
+    <string name="notification_finish_radio_text">Finish app</string>
+    <string name="notification_nothing_radio_text">Do nothing</string>
+    
+    <string name="app_description_link_text"><u>Description</u></string>
+    <string name="app_features_link_text"><u>Features</u></string>
+    <string name="app_permissions_link_text"><u>Permissions</u></string>
+    <string name="source_code_link_text"><u>Source code</u></string>
+    <string name="app_license_link_text"><u>License</u></string>
+    <string name="liability_disclaimer_link_text"><u>Liability disclaimer</u></string>
+    <string name="additional_licenses_link_text"><u>Additional licenses</u></string>
+    <string name="third_party_software_link_text"><u>Third party software</u></string>
+    <string name="app_description_label_text"><u><b>Description</b></u>\n\nSimpleFlash is an app that let\'s you use your smartphone as a flashlight. It is open source-software you are allowed to use, view, share and change without following any particular conditions (except the app\'s software license, which is set up to be as unrestricted as possible).n\nIt is also free of charge and comes with absolutely no need to view any ads or agree to any unreasonable or unexplained permissions. It is provided out of the conviction that everyone should be able to use software that does reliably and exactly what the user wants it to do.</string>
+    <string name="app_features_label_text"><u><b>Features</b></u>\n\nApart from the already mentioned obvious key function, this app offers a number of additional features to make it more convenient for the user, for example:\n\n* Switch light with volume keys\n* lock the screen (while it\'s still on)\n* turn the light on at start / keep it on in background\n* notification when the light is on\n* \"exit\" button to finish the app immediately\n\n(Almost) any of this features can be en-/disabled or changed via the settings menu.</string>
+    <string name="app_permissions_label_text"><u><b>Permissions</b></u>\n\nRight now this app uses only one permission, namely\n\n* Hardware controls: take pictures and videos.\n\nThis permission is only used to control the smartphone camera\'s flashlight, which unfortunately can\'t be accessed directly without accessing the camera as a whole. Nonetheless no pictures or videos are actually recorded by the app. Since this app is open source, you may review and even compile it\'s source code for yourself to be sure of that.</string>
+    <string name="source_code_label_text"><u><b>Source code</b></u>\n\nYou may obtain a copy of this app\'s source code at https://github.com/Patneu/SimpleFlash .</string>
+    <string name="app_license_label_text"><u><b>License</b></u>\n\nCopyright 2014 Patrick Neumann. Licensed under the Apache License, Version 2.0 (the \"License\"); you may use this app only in compliance with the License (or one of the other licenses mentioned under \"Additional licenses\"). You may obtain a copy of the License at http://opensource.org/licenses/Apache-2.0 .</string>
+    <string name="liability_disclaimer_label_text"><u><b>Liability disclaimer</b></u>\n\nIn no event unless required by applicable law or agreed to in writing will any copyright holder, or any other party who modifies and/or conveys this application as permitted by the specified license(s), be liable to you for any damages, including any general, special, incidental or consequential damages arising out of the use or inability to use this application (including but not limited to loss of data or data being rendered inaccurate or losses sustained by you or third parties or a failure of this application to operate with any other programs), even if such holder or other party has been advised of the possibility of such damages.\n\nThere is no warranty for this application, to the extend permitted by applicable law. Except when otherwise stated in writing the copyright holders and/or other parties provide this application \"as is\" without warranty of any kind, either expressed or implied, including, but not limited to, the implied warranties of liability for merchantability or fitness for a particular purpose. The entire risk as to the quality and performance of this application is with you. Should this application prove defective, you assume the cost of all necessary servicing, repair or correction.\n\nIf the liability disclaimer provided cannot be given local legal effect according to its terms, reviewing courts shall apply local law that most closely approximates an absolute waiver of all civil liability in connection with this application, unless a warranty or assumption of liability accompanies a copy of this application in return for a fee. If there are differences between this liability disclaimer and a liability disclaimer provided by any license(s) under whose terms the use of this application is permitted, this version shall apply. If there are differences or obscurities between this liability disclaimer and any version of it translated for convenience, this english version shall apply.</string>
+    <string name="additional_licenses_label_text"><u><b>Additional licenses</b></u>\n\nIn addition to the Apache License mentioned under \"License\" you may also use this app in compliance with one of the additional licenses mentioned in the \"licenses.txt\" file of this app. A copy of the corresponding license conditions is also included and/or linked to in this file. You are free to use the one of those licenses that suits your needs best.</string>
+    <string name="third_party_software_label_text"><u><b>Third party software</b></u>\n\nThis app uses third party software of the Android Open Source Project - namely the android Software Development Kit (\"SDK\") and android v4 and v7-appcompat Support Librarys. This software is licensed under the Apache License, Version 2.0; to obtain a copy of this license see the \"License\" section or the \"licenses.txt\" file of this app.</string>
+    
+    <string name="lock_item_text">Screen lock</string>
+    <string name="settings_item_text">Settings</string>
+    <string name="exit_item_text">Exit the app</string>
+    <string name="about_item_text">About</string>
+
+    <string name="camera_on_notification_text">Camera light on</string>
+    
+    <string name="camera_failed_toast_text">Camera could not be accessed</string>
+    <string name="screen_locked_toast_text">Screen is locked - touch again to unlock</string>
+    <string name="screen_unlocked_toast_text">Screen is unlocked</string>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_activity_name">Einstellungen</string>
+    <string name="about_activity_name">Info</string>
+    
+    <string name="on_start_checkbox_text">Licht an beim Start</string>
+    <string name="in_background_checkbox_text">Licht an im Hintergrund</string>
+    
+    <string name="volumekeys_used_checkbox_text">Licht umschalten mit Lautstärke-Tasten</string>
+    <string name="screen_locked_label_text">Während Bildschirm gesperrt ist:</string>
+    <string name="screen_on_checkbox_text">Bildschirm anbehalten</string>
+    <string name="lock_exit_checkbox_text">\"Beenden\"-Knopf sperren</string>
+    <string name="lock_back_checkbox_text">Zurück-Taste sperren</string>
+    <string name="lock_menu_checkbox_text">Menü-Taste sperren</string>
+    <string name="lock_volume_checkbox_text">Lautstärke-Tasten sperren</string>
+    <string name="hide_statusbar_checkbox_text">Statusleiste verstecken</string>
+    <string name="show_notification_checkbox_text">Zeige Benachrichtigung während Kamera-Licht an ist</string>
+    <string name="notification_click_label_text">Wenn Benachrichtigung angeklickt:</string>
+    <string name="notification_cancel_label_text">Bei Benachrichtigungs-Abbruch:</string>
+    <string name="notification_resume_radio_text">App fortsetzen</string>
+    <string name="notification_finish_radio_text">App beenden</string>
+    <string name="notification_nothing_radio_text">Nichts tun</string>
+    
+    <string name="app_description_link_text"><u>Beschreibung</u></string>
+    <string name="app_features_link_text"><u>Funktionen</u></string>
+    <string name="app_permissions_link_text"><u>Berechtigungen</u></string>
+    <string name="source_code_link_text"><u>Quellcode</u></string>
+    <string name="app_license_link_text"><u>Lizenz</u></string>
+    <string name="liability_disclaimer_link_text"><u>Haftungsausschluss</u></string>
+    <string name="additional_licenses_link_text"><u>Zusätzliche Lizenzen</u></string>
+    <string name="third_party_software_link_text"><u>Dritt-Software</u></string>
+    <string name="app_description_label_text"><u><b>Beschreibung</b></u>\n\nSimpleFlash ist eine App mit der du dein Smartphone als Taschenlampe nutzen kannst. Sie ist quelloffene Software, die du nutzen, ansehen, teilen und verändern darfst, ohne irgendwelche besonderen Bedingungen zu beachten (außer der Software-Lizenz der App, die so unbeschränkt wie möglich beschaffen ist).\n\nSie ist außerdem kostenlos und erfordert in keiner Weise das Ansehen irgendwelcher Werbung oder die Zustimmung zu unangebrachten oder nicht erklärten Berechtigungen. Sie wird aus der Überzeugung heraus zur Verfügung gestellt, dass jeder die Möglichkeit haben sollte, Software zu nutzen, die zuverlässig genau das tut, was der Nutzer von ihr erwartet.</string>
+    <string name="app_features_label_text"><u><b>Funktionen</b></u>\n\nAußer der bereits erwähnten offensichtlichen Kernfunktion, bietet diese App eine Reihe weiterer Möglichkeiten, um sie für den Nutzer praktischer zu machen, zum Beispiel:\n\n* Licht umschalten mit Lautstärke-Tasten\n* Bildschirm sperren (während er an bleibt)\n* Licht anschalten beim Start / anbehalten im Hintergrund\n* Benachrichtigung wenn Licht an\n* "Beenden"-Button um die App sofort zu schließen\n\n(Fast) jede dieser Funktionen kann (de)aktiviert oder geändert werden durch das Einstellungen-Menü.</string>
+    <string name="app_permissions_label_text"><u><b>Berechtigungen</b></u>\n\nIm Moment nutzt die App nur eine Berechtigung und zwar\n\n* Hardware-Steuerelemente: Bilder und Videos aufnehmen.\n\nDiese Berechtigung wird nur genutzt, um das Blitzlicht der Smartphone-Kamera zu steuern, auf das leider nicht direkt zugegriffen werden kann, ohne auf die Kamera als Ganzes zuzugreifen. Trotzdem werden tatsächlich keine Bilder oder Videos von dieser App aufgenommen. Da diese App quelloffen ist, kannst du ihren Quellcode selbst überprüfen oder sogar kompilieren, um sicher zu gehen.</string>
+    <string name="source_code_label_text"><u><b>Quellcode</b></u>\n\nDu kannst eine Kopie des Quellcodes dieser App erhalten unter https://github.com/Patneu/SimpleFlash .</string>
+    <string name="app_license_label_text"><u><b>Lizenz</b></u>\n\nCopyright 2014 Patrick Neumann. Lizenziert unter der Apache License, Version 2.0 (die \"Lizenz\"); du kannst die App nur in Übereinstimmung mit der Lizenz nutzen (oder einer der anderen unter \"Zusätzliche Lizenzen\" erwähnten Lizenzen). Du kannst eine Kopie der Lizenz (in englischer Sprache) erhalten unter http://opensource.org/licenses/Apache-2.0 .</string>
+    <string name="liability_disclaimer_label_text"><u><b>Haftungsausschluss</b></u>\n\nUnter keinen Umständen, außer wenn erforderlich durch anwendbares Recht oder schriftliche Vereinbarung wird ein Rechteinhaber oder eine andere Partei die diese Applikation modifiziert oder verbreitet - wie zulässig durch die spezifizierte(n) Lizenz(en) - dir verantwortlich sein für irgendwelche Schäden; einschließlich jeglicher allgemeinen, speziellen, zufälligen oder konsequenten Schäden die aus der Nutzung oder Unfähigkeit zur Nutzung dieser Applikation entstehen (einschließlich, aber nicht beschränkt auf den Verlust von Daten oder die fehlerhafte Erstellung von Daten oder durch dich oder dritte Parteien erlittene Verluste oder ein Versagen dieser Applikation mit irgendwelchen anderen Programmen zu arbeiten), selbst wenn ein solcher Rechteinhaber oder eine solche andere Partei auf die Möglichkeit solcher Schäden hingewiesen wurde.\n\nEs gibt keine Garantie für diese Applikation, soweit erlaubt durch anwendbares Recht. Außer wenn in schriftlicher Vereinbarung anders angegeben stellen die Rechteinhaber und andere Parteien diese Applikation \"wie gesehen\" zur Verfügung, ohne Garantie irgendeiner Art, ob ausdrücklich oder impliziert, einschließlich, aber nicht beschränkt auf, implizierte Garantien der Haftung für Marktfähigkeit oder Eignung für einen bestimmten Zweck. Das gesamte Risiko bezüglich Qualität und Leistung dieser Applikation liegt bei dir. Sollte diese Applikation sich als fehlerhaft herausstellen, übernimmst du die Kosten aller notwendigen Instandhaltungen, Reparaturen und Korrekturen.\n\nWenn der zur Verfügung gestellte Haftungsausschluss keine seinen Bedingungen entsprechende lokale Rechtswirkung entfalten kann, sollen prüfende Gerichte lokales Recht anwenden, dass einem absoluten Ausschluss aller zivilrechtlichen Verpflichtungen, in Verbindung mit dieser Applikation, so nah wie möglich kommt, außer wenn eine Garantie oder Übernahme der Verantwortung mit einer Kopie dieser Applikation, im Austausch für ein Entgelt, einhergeht. Wenn Unterschiede bestehen zwischen diesem Haftungsausschluss und einem Haftungsausschluss, zur Verfügung gestellt von einer (der) Lizenz(en), unter deren Bedingungen die Nutzung dieser Aplikation erlaubt ist, soll diese Version Anwendung finden. Wenn Unterschiede oder Unklarheiten bestehen zwischen diesem Haftungsausschluss und irgendeiner für die Bequemlichkeit übersetzten Version davon, soll die englische Version Anwendung finden.</string>
+    <string name="additional_licenses_label_text"><u><b>Zusätzliche Lizenzen</b></u>\n\nZusätzlich zur unter \"Lizenz\" erwähnten Apache License kannst du diese App auch nutzen in Übereinstimmung mit einer der zusätzlichen Lizenzen, die in der \"licenses.txt\"-Datei dieser App erwähnt werden. Eine Kopie der entsprechenden Lizenz-Bedingungen wird auch von dieser Datei beinhaltet und/oder verlinkt. Du darfst diejenige dieser Lizenzen nutzen, die deinen Bedürfnissen am besten entspricht.</string>
+    <string name="third_party_software_label_text"><u><b>Dritt-Software</b></u>\n\nDie App benutzt Dritt-Software des Android Open Source Project - namentlich das Android-Software Development Kit (\"SDK\") und die Android-v4 und -v7-appcompat Support-Bibliotheken. Diese Software ist lizenziert unter der Apache License, Version 2.0; um eine Kopie dieser Lizenz zu erhalten, siehe den \"Lizenz\"-Abschnitt oder die \"licenses.txt\"-Datei dieser App.</string>
+    
+    <string name="lock_item_text">Bildschirm-Sperre</string>
+    <string name="settings_item_text">Einstellungen</string>
+    <string name="exit_item_text">Die App beenden</string>
+    <string name="about_item_text">Info</string>
+
+    <string name="camera_on_notification_text">Kamera-Licht an</string>
+    
+    <string name="camera_failed_toast_text">Zugriff auf Kamera nicht möglich</string>
+    <string name="screen_locked_toast_text">Bldschirm gesperrt - erneut berühren zum Entsperren</string>
+    <string name="screen_unlocked_toast_text">Bildschirm entsperrt</string>
+</resources>
