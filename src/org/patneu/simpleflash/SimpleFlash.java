@@ -1152,6 +1152,12 @@ public class SimpleFlash extends ActionBarActivity
          * {@link Camera#open() Opens} an instance of the {@link Camera} class
          * and permits access to the device's camera. <br/><br/>
          * 
+         * On devices with more than one camera this method looks for the first
+         * camera id that's a 'back' camera.
+         * 
+         * @throws RuntimeException if no 'back' camera was found, usually
+         *                          handled by {@link #setFlashLightOn(boolean)}
+         * 
          * @see #releaseFlashLight()
          * @see #isFlashLightOpen()
          * 
@@ -1159,8 +1165,26 @@ public class SimpleFlash extends ActionBarActivity
          */
         protected void openFlashLight()
         {
-            flashLight = Camera.open();
-            flashLightOpen = true;
+            if(Build.VERSION.SDK_INT < Build.VERSION_CODES.GINGERBREAD)
+            {
+                flashLight = Camera.open();
+                flashLightOpen = true;
+            }
+            else
+            {
+                for(int counter = 0; counter < Camera.getNumberOfCameras(); counter = counter + 1)
+                {
+                    Camera.CameraInfo info = new Camera.CameraInfo();
+                    Camera.getCameraInfo(counter, info);
+                    if(info.facing == Camera.CameraInfo.CAMERA_FACING_BACK)
+                    {
+                        flashLight = Camera.open(counter);
+                        flashLightOpen = true;
+                        return;
+                    }
+                }
+                throw new RuntimeException("no back camera found");
+            }
         }
         
         /**
@@ -1226,11 +1250,13 @@ public class SimpleFlash extends ActionBarActivity
                     Camera.Parameters params = flashLight.getParameters();
                     params.setFlashMode(Camera.Parameters.FLASH_MODE_TORCH);
                     flashLight.setParameters(params);
+                    flashLight.startPreview();
                 }
                 else
                 {
                     if(isFlashLightOpen())
                     {
+                        flashLight.stopPreview();
                         Camera.Parameters params = flashLight.getParameters();
                         params.setFlashMode(Camera.Parameters.FLASH_MODE_OFF);
                         flashLight.setParameters(params);
