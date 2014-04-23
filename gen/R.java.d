@@ -588,9 +588,11 @@ C:\Users\Patrick\Eigene Dokumente\AndroidProjects\SimpleFlash\res\menu\exit_acti
 C:\Users\Patrick\Eigene Dokumente\AndroidProjects\SimpleFlash\res\menu\lock_actionbar_menu.xml \
 C:\Users\Patrick\Eigene Dokumente\AndroidProjects\SimpleFlash\res\menu\main_actionbar_menu.xml \
 C:\Users\Patrick\Eigene Dokumente\AndroidProjects\SimpleFlash\res\values\colors.xml \
+C:\Users\Patrick\Eigene Dokumente\AndroidProjects\SimpleFlash\res\values\dimens.xml \
 C:\Users\Patrick\Eigene Dokumente\AndroidProjects\SimpleFlash\res\values\strings.xml \
 C:\Users\Patrick\Eigene Dokumente\AndroidProjects\SimpleFlash\res\values-de\strings.xml \
 C:\Users\Patrick\Eigene Dokumente\AndroidProjects\SimpleFlash\res\values-en\strings.xml \
+C:\Users\Patrick\Eigene Dokumente\AndroidProjects\SimpleFlash\res\values-v14\dimens.xml \
 C:\Users\Patrick\Eigene Dokumente\AndroidProjects\SimpleFlash\bin\res\drawable\ic_stat_notify.png \
 C:\Users\Patrick\Eigene Dokumente\AndroidProjects\SimpleFlash\bin\res\drawable\on_off_button_off.png \
 C:\Users\Patrick\Eigene Dokumente\AndroidProjects\SimpleFlash\bin\res\drawable\on_off_button_on.png \

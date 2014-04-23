@@ -221,7 +221,7 @@ public class SimpleFlash extends ActionBarActivity
         {
             SharedPreferences.Editor prefs = getSharedPreferences(getString(R.string.preference_path), MODE_PRIVATE).edit();
             prefs.putBoolean(prefPath, value);
-            prefs.apply();
+            prefs.commit();
         }
         
         /**
@@ -242,7 +242,7 @@ public class SimpleFlash extends ActionBarActivity
         {
             SharedPreferences.Editor prefs = getSharedPreferences(getString(R.string.preference_path), MODE_PRIVATE).edit();
             prefs.putBoolean(getString(prefPathId), value);
-            prefs.apply();
+            prefs.commit();
         }
         
         /**
@@ -309,7 +309,7 @@ public class SimpleFlash extends ActionBarActivity
         {
             SharedPreferences.Editor prefs = getSharedPreferences(getString(R.string.preference_path), MODE_PRIVATE).edit();
             prefs.putInt(prefPath, value);
-            prefs.apply();
+            prefs.commit();
         }
         
         /**
@@ -330,7 +330,7 @@ public class SimpleFlash extends ActionBarActivity
         {
             SharedPreferences.Editor prefs = getSharedPreferences(getString(R.string.preference_path), MODE_PRIVATE).edit();
             prefs.putInt(getString(prefPathId), value);
-            prefs.apply();
+            prefs.commit();
         }
         
         /**
@@ -397,7 +397,7 @@ public class SimpleFlash extends ActionBarActivity
         {
             SharedPreferences.Editor prefs = getSharedPreferences(getString(R.string.preference_path), MODE_PRIVATE).edit();
             prefs.putString(prefPath, value);
-            prefs.apply();
+            prefs.commit();
         }
         
         /**
@@ -418,7 +418,7 @@ public class SimpleFlash extends ActionBarActivity
         {
             SharedPreferences.Editor prefs = getSharedPreferences(getString(R.string.preference_path), MODE_PRIVATE).edit();
             prefs.putString(getString(prefPathId), value);
-            prefs.apply();
+            prefs.commit();
         }
         
         /**

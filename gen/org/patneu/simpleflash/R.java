@@ -886,6 +886,11 @@ containing a value of this type.
  Minimum width of the search view text entry area. 
          */
         public static final int abc_search_view_text_min_width=0x7f08000c;
+        /** Margin of this applications widgets to keep to other widgets.
+Margin of this applications widgets to keep to other widgets; '0dp' as
+    of android SDK version 14, because this feature is provided by default.
+         */
+        public static final int widget_margin=0x7f080011;
     }
     public static final class drawable {
         public static final int abc_ab_bottom_solid_dark_holo=0x7f020000;
@@ -1191,61 +1196,62 @@ containing a value of this type.
          */
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
         public static final int about_activity_name=0x7f0a000f;
-        public static final int about_item_text=0x7f0a0040;
-        public static final int additional_licenses_label_text=0x7f0a003b;
-        public static final int additional_licenses_link_text=0x7f0a0033;
-        public static final int app_description_label_text=0x7f0a0035;
-        public static final int app_description_link_text=0x7f0a002d;
-        public static final int app_features_label_text=0x7f0a0036;
-        public static final int app_features_link_text=0x7f0a002e;
-        public static final int app_license_label_text=0x7f0a0039;
-        public static final int app_license_link_text=0x7f0a0031;
+        public static final int about_item_text=0x7f0a0041;
+        public static final int additional_licenses_label_text=0x7f0a003c;
+        public static final int additional_licenses_link_text=0x7f0a0034;
+        public static final int app_description_label_text=0x7f0a0036;
+        public static final int app_description_link_text=0x7f0a002e;
+        public static final int app_features_label_text=0x7f0a0037;
+        public static final int app_features_link_text=0x7f0a002f;
+        public static final int app_license_label_text=0x7f0a003a;
+        public static final int app_license_link_text=0x7f0a0032;
         public static final int app_name=0x7f0a000d;
-        public static final int app_permissions_label_text=0x7f0a0037;
-        public static final int app_permissions_link_text=0x7f0a002f;
-        public static final int camera_failed_toast_text=0x7f0a0042;
-        public static final int camera_on_notification_text=0x7f0a0041;
-        public static final int exit_item_text=0x7f0a003f;
-        public static final int hide_statusbar_checkbox_text=0x7f0a0026;
-        public static final int hide_statusbar_pref=0x7f0a0019;
-        public static final int in_background_checkbox_text=0x7f0a001e;
-        public static final int in_background_pref=0x7f0a0012;
-        public static final int liability_disclaimer_label_text=0x7f0a003a;
-        public static final int liability_disclaimer_link_text=0x7f0a0032;
-        public static final int lock_back_checkbox_text=0x7f0a0023;
-        public static final int lock_back_pref=0x7f0a0016;
-        public static final int lock_exit_checkbox_text=0x7f0a0022;
-        public static final int lock_exit_pref=0x7f0a0015;
-        public static final int lock_item_text=0x7f0a003d;
-        public static final int lock_menu_checkbox_text=0x7f0a0024;
-        public static final int lock_menu_pref=0x7f0a0017;
-        public static final int lock_volume_checkbox_text=0x7f0a0025;
-        public static final int lock_volume_pref=0x7f0a0018;
-        public static final int notification_cancel_label_text=0x7f0a0029;
-        public static final int notification_cancel_pref=0x7f0a001c;
-        public static final int notification_click_label_text=0x7f0a0028;
-        public static final int notification_click_pref=0x7f0a001b;
-        public static final int notification_finish_radio_text=0x7f0a002b;
-        public static final int notification_nothing_radio_text=0x7f0a002c;
-        public static final int notification_resume_radio_text=0x7f0a002a;
-        public static final int on_start_checkbox_text=0x7f0a001d;
-        public static final int on_start_pref=0x7f0a0011;
-        public static final int preference_path=0x7f0a0010;
-        public static final int screen_locked_label_text=0x7f0a0020;
-        public static final int screen_locked_toast_text=0x7f0a0043;
-        public static final int screen_on_checkbox_text=0x7f0a0021;
-        public static final int screen_on_pref=0x7f0a0014;
-        public static final int screen_unlocked_toast_text=0x7f0a0044;
+        public static final int app_permissions_label_text=0x7f0a0038;
+        public static final int app_permissions_link_text=0x7f0a0030;
+        public static final int camera_failed_toast_text=0x7f0a0043;
+        public static final int camera_on_notification_text=0x7f0a0042;
+        public static final int exit_item_text=0x7f0a0040;
+        public static final int hide_statusbar_checkbox_text=0x7f0a0027;
+        public static final int hide_statusbar_pref=0x7f0a001a;
+        public static final int in_background_checkbox_text=0x7f0a001f;
+        public static final int in_background_pref=0x7f0a0013;
+        public static final int liability_disclaimer_label_text=0x7f0a003b;
+        public static final int liability_disclaimer_link_text=0x7f0a0033;
+        public static final int light_widget_name=0x7f0a0010;
+        public static final int lock_back_checkbox_text=0x7f0a0024;
+        public static final int lock_back_pref=0x7f0a0017;
+        public static final int lock_exit_checkbox_text=0x7f0a0023;
+        public static final int lock_exit_pref=0x7f0a0016;
+        public static final int lock_item_text=0x7f0a003e;
+        public static final int lock_menu_checkbox_text=0x7f0a0025;
+        public static final int lock_menu_pref=0x7f0a0018;
+        public static final int lock_volume_checkbox_text=0x7f0a0026;
+        public static final int lock_volume_pref=0x7f0a0019;
+        public static final int notification_cancel_label_text=0x7f0a002a;
+        public static final int notification_cancel_pref=0x7f0a001d;
+        public static final int notification_click_label_text=0x7f0a0029;
+        public static final int notification_click_pref=0x7f0a001c;
+        public static final int notification_finish_radio_text=0x7f0a002c;
+        public static final int notification_nothing_radio_text=0x7f0a002d;
+        public static final int notification_resume_radio_text=0x7f0a002b;
+        public static final int on_start_checkbox_text=0x7f0a001e;
+        public static final int on_start_pref=0x7f0a0012;
+        public static final int preference_path=0x7f0a0011;
+        public static final int screen_locked_label_text=0x7f0a0021;
+        public static final int screen_locked_toast_text=0x7f0a0044;
+        public static final int screen_on_checkbox_text=0x7f0a0022;
+        public static final int screen_on_pref=0x7f0a0015;
+        public static final int screen_unlocked_toast_text=0x7f0a0045;
         public static final int settings_activity_name=0x7f0a000e;
-        public static final int settings_item_text=0x7f0a003e;
-        public static final int show_notification_checkbox_text=0x7f0a0027;
-        public static final int show_notification_pref=0x7f0a001a;
-        public static final int source_code_label_text=0x7f0a0038;
-        public static final int source_code_link_text=0x7f0a0030;
-        public static final int third_party_software_label_text=0x7f0a003c;
-        public static final int third_party_software_link_text=0x7f0a0034;
-        public static final int volumekeys_used_checkbox_text=0x7f0a001f;
-        public static final int volumekeys_used_pref=0x7f0a0013;
+        public static final int settings_item_text=0x7f0a003f;
+        public static final int show_notification_checkbox_text=0x7f0a0028;
+        public static final int show_notification_pref=0x7f0a001b;
+        public static final int source_code_label_text=0x7f0a0039;
+        public static final int source_code_link_text=0x7f0a0031;
+        public static final int third_party_software_label_text=0x7f0a003d;
+        public static final int third_party_software_link_text=0x7f0a0035;
+        public static final int volumekeys_used_checkbox_text=0x7f0a0020;
+        public static final int volumekeys_used_pref=0x7f0a0014;
     }
     public static final class style {
         /**  Mimic text appearance in select_dialog_item.xml 
